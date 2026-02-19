@@ -1,5 +1,5 @@
 <!--img src="https://cuplink.net/img/logo.png" alt="CupLink Logo" style="height: 32px; vertical-align: middle; margin-right: 8px;"--> <!--**Tensor**-->
-=================================================================================
+==========================================================================
 
 **Your privacy, uncompromised** - Serverless, encrypted video and voice calling over RiV-mesh
 
@@ -256,6 +256,5 @@ If QR code scanning fails:
 #### Getting Help
 
 - **Documentation**: [Tensor Documentation](docs/documentation.md)
-- **Webpage**: [Tensor Community](https://cuplink.net)
 
 * * *
