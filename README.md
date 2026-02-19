@@ -1,18 +1,18 @@
-<img src="https://cuplink.net/img/logo.png" alt="CupLink Logo" style="height: 32px; vertical-align: middle; margin-right: 8px;"> **CupLink™**
+<img src="https://cuplink.net/img/logo.png" alt="CupLink Logo" style="height: 32px; vertical-align: middle; margin-right: 8px;"> **Tensor**
 =================================================================================
 
 **Your privacy, uncompromised** - Serverless, encrypted video and voice calling over RiV-mesh
 
-**CupLink™** offers a new paradigm in secure communication. It's completely serverless, fully encrypted, and effortlessly private. Built on **RiV-mesh™**, the decentralized IPv6 mesh network infrastructure, CupLink™ enables true peer-to-peer voice and video calling without accounts, servers, or surveillance.
+**Tensor** offers a new paradigm in secure communication. It's completely serverless, fully encrypted, and effortlessly private. Built on **RiV-mesh™**, the decentralized IPv6 mesh network infrastructure, Tensor enables true peer-to-peer voice and video calling without accounts, servers, or surveillance.
 
 ## Two Components. One Seamless Experience.
 
-**CupLink™** is composed of two integrated layers:
+**Tensor** is composed of two integrated layers:
 
 ### • Overlay Peer-to-peer Network
 A resilient, decentralized connectivity layer powered by **RiV-mesh™**, enabling direct communication between devices without accounts or centralized control.
 
-### • The CupLink™ App  
+### • The Tensor App  
 An intuitive, lightweight calling interface that lets you connect instantly in up to 4K+ resolution. It's encrypted end-to-end, key-based, and fully user-controlled.
 
 Perfect for use in home networks, company LANs, community mesh setups, or fully offline scenarios. The application uses Android's VpnService framework to establish the mesh network environment for peer-to-peer communication.
@@ -65,10 +65,10 @@ Perfect for use in home networks, company LANs, community mesh setups, or fully 
 
 ### 🌐 Peer Architecture
 
-CupLink™ acts as a full mesh node in the **RiV-mesh™** decentralized IPv6 overlay network. Each peer can route traffic for others, enabling scalable, serverless communication with the following architecture:
+Tensor acts as a full mesh node in the **RiV-mesh™** decentralized IPv6 overlay network. Each peer can route traffic for others, enabling scalable, serverless communication with the following architecture:
 
 #### Decentralized Mesh Network
-*   **Full mesh topology** - every CupLink™ device is a routing node
+*   **Full mesh topology** - every Tensor device is a routing node
 *   **Self-organizing network** - automatic peer discovery and connection management
 *   **No central servers** - completely decentralized communication infrastructure
 *   **IPv6 native overlay** - built on cryptographic IPv6 addressing
@@ -89,11 +89,11 @@ CupLink™ acts as a full mesh node in the **RiV-mesh™** decentralized IPv6 ov
 
 ### 📄 How It Works
 
-CupLink™ operates through a sophisticated 7-step process that creates a completely decentralized communication environment:
+Tensor operates through a sophisticated 7-step process that creates a completely decentralized communication environment:
 
 #### Step-by-Step Process
 
-1. **Application Installation** - User installs CupLink™ application on Android device
+1. **Application Installation** - User installs Tensor application on Android device
 2. **VpnService Activation** - Application automatically starts MainService VpnService in background
 3. **Mesh Network Establishment** - VpnService establishes connection using secure tunnel (RiV-mesh™)
 4. **IPv6 Address Generation** - Self-generated Virtual Static IPv6 addresses are created and assigned to devices
@@ -104,14 +104,14 @@ CupLink™ operates through a sophisticated 7-step process that creates a comple
 #### Technical Implementation
 
 *   **QR Code Contact Exchange** - Devices exchange identity and address using QR codes (contact name + static IPv6)
-*   **Direct RiV-mesh™ Connection** - CupLink™ connects directly using RiV-mesh™'s cryptographic overlay IPv6 network
+*   **Direct RiV-mesh™ Connection** - Tensor connects directly using RiV-mesh™'s cryptographic overlay IPv6 network
 *   **Multicast Peer Discovery** - Peer discovery happens via IPv6 multicast; fallback via public peer tables
 *   **Sovereign Networking** - No DHCP or external DNS required—fully self-contained networking
 *   **Zero-Configuration Setup** - No manual network configuration needed
 
 #### Why This Matters
 
-Most apps route your calls through corporate servers and monetize your identity. CupLink™ does the opposite by removing the server, removing the account, and returning control to you. No ads. No tracking. No compromises.
+Most apps route your calls through corporate servers and monetize your identity. Tensor does the opposite by removing the server, removing the account, and returning control to you. No ads. No tracking. No compromises.
 
 * * *
 
@@ -174,31 +174,31 @@ For Android-specific development:
 
 ### 📋 Google Play Compliance
 
-*   CupLink™ uses Android's VpnService framework to create a secure mesh network environment called RiV-mesh™
+*   Tensor uses Android's VpnService framework to create a secure mesh network environment called RiV-mesh™
 *   This usage is compliant with Google Play's VpnService policy because it provides VPN as core functionality for peer-to-peer communication
 *   No personal data collection or redirection of user traffic for monetization purposes
 *   All data from device to VPN tunnel endpoint is encrypted end-to-end
 
 ### 📄 Licensing
 
-**CupLink™** is open source software developed by **RiV Chain™ Limited**:
+**Tensor** is open source software developed by **RiV Chain™ Limited**:
 - **License**: GNU General Public License v3.0 (GPLv3)
 - **Platform**: Android with VpnService framework
 - **Infrastructure**: Built on RiV-mesh™ mesh networking (LGPLv3)
 - **Commercial Use**: Allowed with full GPLv3 compliance requirements
 - **Source Code**: Available at [GitHub](https://github.com/RiV-chain/CupLink)
 
-**RiV-mesh™ Infrastructure** (used by CupLink™):
+**RiV-mesh™ Infrastructure** (used by Tensor):
 - **License**: GNU Lesser General Public License v3.0 (LGPLv3)
 - **Scope**: All mesh networking functionality, REST API, protocol implementations, command-line tools
 - **Commercial Use**: Allowed with full LGPLv3 compliance requirements
 - **Source Code**: Available at [GitHub](https://github.com/RiV-chain/RiV-mesh)
 
 #### Key GPLv3 Requirements:
-- **Source Code Sharing**: Must provide CupLink™ source code when distributing
-- **Application Code Sharing**: Must share source code of applications using CupLink™
+- **Source Code Sharing**: Must provide Tensor source code when distributing
+- **Application Code Sharing**: Must share source code of applications using Tensor
 - **Build Instructions**: Must provide installation and build information
-- **Modifications**: Any modifications to CupLink™ must remain open source
+- **Modifications**: Any modifications to Tensor must remain open source
 
 #### RiV-mesh™ LGPLv3 Requirements:
 - **Source Code Sharing**: Must provide RiV-mesh™ source code when distributing
@@ -211,22 +211,22 @@ For complete licensing details, see:
 
 ### 🔧 Troubleshooting
 
-#### Common CupLink™ Issues
+#### Common Tensor Issues
 
 ##### App Won't Start
-If CupLink™ fails to launch:
+If Tensor fails to launch:
 
 1. **Check Android Version**: Ensure you're running Android 5.0+ (Lollipop)
 2. **Restart Device**: Try restarting your Android device
-3. **Clear App Data**: Go to Settings > Apps > CupLink™ > Storage > Clear Data
-4. **Reinstall App**: Uninstall and reinstall CupLink™ from Google Play
+3. **Clear App Data**: Go to Settings > Apps > Tensor > Storage > Clear Data
+4. **Reinstall App**: Uninstall and reinstall Tensor from Google Play
 
 ##### VpnService Permission Issues
 If you get permission errors:
 
-1. **Grant VpnService Permission**: When prompted, allow CupLink™ to create VPN connections
-2. **Check Device Admin**: Ensure CupLink™ has necessary device permissions
-3. **Restart App**: Close and restart CupLink™ after granting permissions
+1. **Grant VpnService Permission**: When prompted, allow Tensor to create VPN connections
+2. **Check Device Admin**: Ensure Tensor has necessary device permissions
+3. **Restart App**: Close and restart Tensor after granting permissions
 4. **Check Other VPNs**: Disable other VPN apps that might conflict
 
 ##### Cannot Make Calls
@@ -248,14 +248,14 @@ If experiencing poor audio/video quality:
 ##### Contact Exchange Issues
 If QR code scanning fails:
 
-1. **Camera Permissions**: Grant camera permission to CupLink™
+1. **Camera Permissions**: Grant camera permission to Tensor
 2. **QR Code Quality**: Ensure QR code is clear and well-lit
 3. **Manual Entry**: Try manually entering contact information
 4. **Network Sync**: Wait for mesh network to fully establish before exchanging contacts
 
 #### Getting Help
 
-- **Documentation**: [CupLink™ Documentation](docs/documentation.md)
-- **Webpage**: [CupLink™ Community](https://cuplink.net)
+- **Documentation**: [Tensor Documentation](docs/documentation.md)
+- **Webpage**: [Tensor Community](https://cuplink.net)
 
 * * *
