@@ -1,17 +1,17 @@
-CupLink Documentation
+Tensor Documentation
 =======================
 
 ## Motivation
 
-Currently, the market of VoIP software is dominated by software owned by big companies and tied to central infrastructure and the Internet in order to monetize the platform and control the data flow. On the other side there a various communities (e.g. [Freifunk](https://freifunk.net/), [RiV-mesh](https://github.com/RiV-chain/RiV-mesh), ..) try to establish various kinds of decentralized networks to connect people with alternative pathways even without Internet. Common VoIP software usually does not work there. This is where CupLink can serve as a use case or even "killer" App for these networks.
+Currently, the market of VoIP software is dominated by software owned by big companies and tied to central infrastructure and the Internet in order to monetize the platform and control the data flow. On the other side there a various communities (e.g. [Freifunk](https://freifunk.net/), [RiV-mesh](https://github.com/RiV-chain/RiV-mesh), ..) try to establish various kinds of decentralized networks to connect people with alternative pathways even without Internet. Common VoIP software usually does not work there. This is where Tensor can serve as a use case or even "killer" App for these networks.
 
 ## Finding Contacts
 
-CupLink has no discovery mechanism by design. Contacts are shared via QR-Code or text blob.
+Tensor has no discovery mechanism by design. Contacts are shared via QR-Code or text blob.
 
 ## How It Connects
 
-CupLink uses a **cryptographically secure IPv6 addressing scheme** derived from Ed25519 public keys, making it impossible to clone or spoof IP addresses. This creates a statically assigned, globally unique address for each contact.
+Tensor uses a **cryptographically secure IPv6 addressing scheme** derived from Ed25519 public keys, making it impossible to clone or spoof IP addresses. This creates a statically assigned, globally unique address for each contact.
 
 ### IPv6 Address Generation Algorithm
 
@@ -73,7 +73,7 @@ This approach ensures that:
 
 ## WebRTC
 
-CupLink uses [WebRTC](https://webrtc.org/), a well known library for video- and audio communication. It handles audio and video WebRTC also supports NAT traversal via ICE-Servers, but this feature has been turned off for CupLink, because it is not needed.
+Tensor uses [WebRTC](https://webrtc.org/), a well known library for video- and audio communication. It handles audio and video WebRTC also supports NAT traversal via ICE-Servers, but this feature has been turned off for Tensor, because it is not needed.
 
 Resources:
 
@@ -106,7 +106,7 @@ The WebRTC connection itself uses its own crypto scheme.
 # Call Protocol Exchange Diagram
 
 ## Overview
-This diagram shows the complete call protocol exchange between two CupLink Android applications, including the signaling flow, WebRTC negotiation, and media exchange.
+This diagram shows the complete call protocol exchange between two Tensor Android applications, including the signaling flow, WebRTC negotiation, and media exchange.
 
 ## Protocol Flow
 
@@ -341,7 +341,7 @@ Caller App                    Callee App
    
 ## Development
 
-CupLink is Free and Open Source Software. Everybody can participate or even fork the software.
+Tensor is Free and Open Source Software. Everybody can participate or even fork the software.
 
 ### Building From Sources
 
